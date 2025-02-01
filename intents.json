@@ -1,0 +1,83 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi", "Hello", "Hey there", "Good day", "Hi chatbot"],
+        "responses": ["Hello! How can I support you with your academics today?", "Hi! Tell me what's on your mind."],
+        "context": [""]
+      },
+      {
+        "tag": "stress",
+        "patterns": ["I'm stressed", "Feeling overwhelmed", "I can't focus", "Too much work", "I'm anxious about exams", "I'm sad"],
+        "responses": ["Take a deep breath. You’re doing your best, and that's what matters.", "I understand it can be overwhelming. Do you want to break tasks into smaller steps?", "Exams are tough, but remember, you've prepared well. Lets talk about it."],
+        "context": [""]
+      },
+      {
+        "tag": "motivation",
+        "patterns": ["I need motivation", "I feel demotivated", "Can you motivate me?", "I'm losing focus"],
+        "responses": ["Youre capable of great things. Just take one step at a time!", "Believe in yourself. Youve got this!", "Every small effort brings you closer to your goals. Keep going!"],
+        "context": [""]
+      },
+      {
+        "tag": "study_tips",
+        "patterns": ["Can you give me study tips?", "How to focus on studies?", "Help me with studying"],
+        "responses": ["Try the Pomodoro technique: study for 25 minutes, then take a 5-minute break.", "Organize your study material and prioritize the topics. One step at a time!", "Find a quiet place and limit distractions. You can do this!"],
+        "context": [""]
+      },
+      {
+        "tag": "time_management",
+        "patterns": ["How to manage my time?", "I have too much to do", "Help me plan my studies"],
+        "responses": ["Create a to-do list and set deadlines for each task.", "Break tasks into smaller parts and tackle them one at a time.", "Use a planner or calendar to allocate specific times for each subject."],
+        "context": [""]
+      },
+      {
+        "tag": "exam_prep",
+        "patterns": ["How to prepare for exams?", "I’m worried about my exam", "Can you help with exam preparation?"],
+        "responses": ["Revise key topics and solve previous papers to build confidence.", "Focus on understanding concepts rather than rote learning.", "Make a realistic study plan and stick to it. You’ll do great!"],
+        "context": [""]
+      },
+      {
+        "tag": "encouragement",
+        "patterns": ["I feel like giving up", "I can't do this", "I'm not good enough"],
+        "responses": ["Dont be so hard on yourself. Every effort counts.", "Youre stronger than you think. Keep pushing forward.", "Challenges help you grow. Take a break and try again!"],
+        "context": [""]
+      },
+      {
+        "tag": "procrastination",
+        "patterns": ["I keep procrastinating", "How do I stop procrastinating?", "I can't seem to start my work"],
+        "responses": ["Start with just 5 minutes of focused work to build momentum.", "Break tasks into smaller parts to make them less intimidating.", "Reward yourself for completing small goals to stay motivated."],
+        "context": [""]
+      },
+      {
+        "tag": "resources",
+        "patterns": ["Can you recommend study resources?", "Where can I find learning materials?", "Suggest some websites for studying"],
+        "responses": ["You can check platforms like Khan Academy, Coursera, or EdX.", "For books, try Google Books or your university library.", "Would you like me to help you find a specific topic?"],
+        "context": [""]
+      },
+      {
+        "tag": "mental_health",
+        "patterns": ["I feel lonely", "I'm feeling down", "I'm upset about my performance"],
+        "responses": ["Its okay to feel this way. Do you want to talk about it?", "Youre not alone. Im here to listen.", "Your feelings are valid. Take it one day at a time."],
+        "context": [""]
+      },
+      {
+        "tag": "career_guidance",
+        "patterns": ["What career should I choose?", "Can you help with career guidance?", "Im unsure about my future plans"],
+        "responses": ["What are your interests? Lets start there!", "Have you considered talking to a mentor or career counselor?", "Exploring your strengths and passions is a good way to decide."],
+        "context": [""]
+      },
+      {
+        "tag": "study_breaks",
+        "patterns": ["How often should I take breaks?", "Should I study without breaks?", "Can you suggest a study schedule?"],
+        "responses": ["Take a 5-minute break every 25-30 minutes to stay refreshed.", "Long study sessions are okay, but breaks can help you retain information better.", "Listen to your body; if you're tired, step away for a moment."],
+        "context": [""]
+      },
+      {
+        "tag": "academic_doubts",
+        "patterns": ["I have a doubt about my subject", "Can you help with my project?", "I'm stuck on this problem"],
+        "responses": ["Can you tell me more about your doubt?", "I’ll try to guide you. What’s the subject or topic?", "Let’s break this problem into steps. What’s the first challenge?"],
+        "context": [""]
+      }
+    ]
+  }
+  
